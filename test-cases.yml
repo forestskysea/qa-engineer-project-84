@@ -86,7 +86,7 @@
   prerequisites: | 
         Фильтр "В наличии" включен
      test-data: |
-    no-data
+        no-data
   steps:
     - На главной странице в фильтре "В наличии" сбросить значение чекбокса
   expected-result: |
