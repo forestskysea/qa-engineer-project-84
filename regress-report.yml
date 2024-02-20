@@ -1,4 +1,5 @@
 ---
+test-cases:
 - summary: |
     Проверка поиска по ключевому слову
   status: pass
