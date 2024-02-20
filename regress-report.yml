@@ -83,7 +83,7 @@
     Проверка очистки корзины
   status: pass
 
-  bugreports:
+bugreports:
 - summary: |
       При поиске по несуществующему товару отображаются результаты
   environment: |
