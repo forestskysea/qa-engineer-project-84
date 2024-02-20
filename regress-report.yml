@@ -87,7 +87,7 @@
   - summary: |
       При поиске по несуществующему товару отображаются результаты
     environment: |
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      ОС Windows 10 браузер Google Chrome 120.0.6099.131
     steps-to-reproduce: |
       1.На главной странице в строке поиска ввести несуществующее наименование
     expected-result: |
@@ -98,7 +98,7 @@
   - summary: |
       При фильтрации по несуществующей цене без скидки отображаются все товары
     environment: |
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      ОС Windows 10 браузер Google Chrome 120.0.6099.131
     steps-to-reproduce: |
       1.На главной странице в блоке фильтров выбрать категорию
       2.Задать несуществующие в списке значения "От" и "До" в блоке цена, например, От 6000000000000 до 800000000000000000
@@ -108,9 +108,9 @@
       После ввода несуществующей цены отображается весь список товаров
 
     - summary: |
-      Не срабатывает фильтрация в поиске по цене со скидкой из поля До
+      В поиске не срабатывает фильтрация по цене со скидкой из поля До
     environment: |
-      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      ОС Windows 10 браузер Google Chrome 120.0.6099.131
     steps-to-reproduce: |
       1.В блоке цена задать существующие в списке цены в полях "От" и "До", например, 229 и 450
     expected-result: |
